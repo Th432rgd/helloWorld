@@ -1,0 +1,17 @@
+ java.util.Scanner;
+
+public class helloWorld1
+{
+    public static void main(String[] args)
+    {              
+        Scanner keyboard;
+        keyboard = new Scanner(System.in
+        System.out.println("What is your favorite number?");
+        
+        String number = keyboard.next();
+        System.out.println("I'm ausumming you really like the number, " + number);
+        System.out.println("I'm correct aren't I?");
+        
+        
+    }
+}
